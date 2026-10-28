@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Kwacha Coffee Roasters | Visit Our Brixton Roastery</title>
+    <meta name="description" content="Find our Brixton roastery on the map, check opening hours, or send a general message to the Kwacha Coffee Roasters team.">
+    <meta name="keywords" content="specialty coffee Johannesburg, coffee roaster Brixton, single origin coffee, Malawi coffee, Zambia coffee, fresh roasted coffee delivery">
+    <meta name="author" content="Kwacha Coffee Roasters">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1C1712">
+    <link rel="canonical" href="https://km1211266-eng.github.io/Wede-but-better/kwacha-coffee-roasters/contact.html">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='20' r='9' fill='%23C0973C'/%3E%3Cpath d='M0 24h32v8H0z' fill='%231C1712'/%3E%3C/svg%3E">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kwacha Coffee Roasters">
+    <meta property="og:title" content="Contact Kwacha Coffee Roasters | Visit Our Brixton Roastery">
+    <meta property="og:description" content="Find our Brixton roastery on the map, check opening hours, or send a general message to the Kwacha Coffee Roasters team.">
+    <meta property="og:url" content="https://km1211266-eng.github.io/Wede-but-better/kwacha-coffee-roasters/contact.html">
+    <meta property="og:image" content="https://km1211266-eng.github.io/Wede-but-better/kwacha-coffee-roasters/images/cappuccino-cinnamon-green-plate.jpg">
+    <meta property="og:locale" content="en_ZA">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.tile.openstreetmap.org https://tile.openstreetmap.org https://cdnjs.cloudflare.com; connect-src 'self' https://jsonplaceholder.typicode.com; form-action 'self' mailto:; base-uri 'self'; object-src 'none'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="logo"><span class="logo-mark">Kwacha</span> Coffee Roasters</div>
+        <nav class="main-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Our Roasts</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizon-band"></div>
+
+    <main id="main">
+        <section class="page-header">
+            <span class="eyebrow">Contact</span>
+            <h1>Find us or write to us</h1>
+        </section>
+
+        <section class="content-block">
+            <h2>Visit the roastery</h2>
+            <p class="open-pill" id="open-pill" role="status"><span class="dot" aria-hidden="true"></span><span id="open-text">Checking opening hours…</span></p>
+            <div class="visit-details">
+                <div>
+                    <p class="label">Address</p>
+                    <p>4th Avenue, Brixton, Johannesburg</p>
+                </div>
+                <div>
+                    <p class="label">Hours</p>
+                    <p>Tuesday – Saturday, 8am – 4pm</p>
+                </div>
+                <div>
+                    <p class="label">Roast days</p>
+                    <p>Wednesdays and Fridays — the roastery smells like it
+                       on those mornings.</p>
+                </div>
+            </div>
+            <div id="map" role="region" aria-label="Map showing the Kwacha Coffee Roasters roastery in Brixton, Johannesburg"></div>
+            <noscript><p>The interactive map needs JavaScript. We are at 4th Avenue, Brixton, Johannesburg.</p></noscript>
+            <button type="button" class="cta-button-small" id="locate-btn" hidden>How far am I from the roastery?</button>
+            <p id="locate-result" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="content-block">
+            <h2>Send us a message</h2>
+            <p>For general questions, feedback or press. Want to buy coffee or
+               ask about wholesale? Use the <a href="enquiry.html"><u>enquiry form</u></a>
+               for an instant quote instead.</p>
+            <form action="mailto:hello@kwachacoffee.co.za" method="post" enctype="text/plain" class="enquiry-form" id="contact-form" novalidate>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" data-rule="name" autocomplete="name" required aria-describedby="name-error">
+                <span class="field-error" id="name-error" role="alert"></span>
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" data-rule="email" autocomplete="email" required aria-describedby="email-error">
+                <span class="field-error" id="email-error" role="alert"></span>
+
+                <label for="phone">Phone <span class="optional">(optional)</span></label>
+                <input type="tel" id="phone" name="phone" data-rule="phone" data-optional="true" autocomplete="tel" placeholder="082 123 4567" aria-describedby="phone-error">
+                <span class="field-error" id="phone-error" role="alert"></span>
+
+                <label for="type">Type of message</label>
+                <select id="type" name="type" data-rule="select" required aria-describedby="type-error">
+                    <option value="">Choose one…</option>
+                    <option>General question</option>
+                    <option>Feedback</option>
+                    <option>Press or media</option>
+                    <option>Something else</option>
+                </select>
+                <span class="field-error" id="type-error" role="alert"></span>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" data-rule="subject" maxlength="80" required aria-describedby="subject-error">
+                <span class="field-error" id="subject-error" role="alert"></span>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" data-rule="message" maxlength="600" required aria-describedby="message-error message-count"></textarea>
+                <span class="field-hint" id="message-count">0 / 600</span>
+                <span class="field-error" id="message-error" role="alert"></span>
+
+                <button type="submit" class="cta-button">Send message</button>
+            </form>
+            <div id="contact-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Kwacha Coffee Roasters, 4th Avenue, Brixton, Johannesburg. <a href="faq.html">FAQ</a> &middot; <a href="contact.html">Find us</a></p>
+        <p class="footer-tagline">It is dawn.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+    <script src="js/map.js" defer></script>
+    <script src="js/forms.js" defer></script>
+    <script src="js/reveal.js" defer></script>
+    <script src="js/life.js" defer></script>
+    <script src="js/motion.js" defer></script>
+</body>
+</html>

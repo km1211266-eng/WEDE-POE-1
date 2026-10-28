@@ -1,0 +1,59 @@
+{
+  "deliveryFee": 60,
+  "freeDeliveryOver": 400,
+  "wholesaleMinBags": 10,
+  "wholesaleDiscount": 0.15,
+  "roasts": [
+    {
+      "id": "highveld-sunrise",
+      "name": "Highveld Sunrise",
+      "origin": "Magoebaskloof, Limpopo",
+      "country": "South Africa",
+      "altitude": 1200,
+      "process": "washed",
+      "roast": "medium",
+      "price": 145,
+      "stock": 38,
+      "notes": "Bright and citrus-forward with a caramel finish. Our lightest roast, and the one to skip if you take your coffee with a lot of milk.",
+      "flavours": [
+        "Citrus",
+        "Caramel",
+        "Bright"
+      ]
+    },
+    {
+      "id": "midnight-kraal",
+      "name": "Midnight Kraal",
+      "origin": "Mzuzu, Malawi",
+      "country": "Malawi",
+      "altitude": 1400,
+      "process": "natural",
+      "roast": "dark",
+      "price": 160,
+      "stock": 6,
+      "notes": "Bold and smoky, with dark chocolate carrying through into the finish. Holds up well in a moka pot or French press.",
+      "flavours": [
+        "Dark chocolate",
+        "Smoky",
+        "Bold"
+      ]
+    },
+    {
+      "id": "karoo-gold",
+      "name": "Karoo Gold",
+      "origin": "Copperbelt, Zambia",
+      "country": "Zambia",
+      "altitude": 1300,
+      "process": "washed",
+      "roast": "medium-dark",
+      "price": 150,
+      "stock": 0,
+      "notes": "Smooth and nutty with a honey finish that lingers. The one we hand people who say they don't really like coffee.",
+      "flavours": [
+        "Nutty",
+        "Honey",
+        "Smooth"
+      ]
+    }
+  ]
+}

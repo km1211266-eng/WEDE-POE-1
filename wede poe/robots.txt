@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+Sitemap: https://km1211266-eng.github.io/Wede-but-better/kwacha-coffee-roasters/sitemap.xml
